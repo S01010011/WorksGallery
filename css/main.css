@@ -106,7 +106,7 @@ a:focus{
 /* header */
 #header .tip{
 	position:relative;
-	z-index:9999;
+	z-index:100;
 }
 #header .tip img{
 	position:fixed;
