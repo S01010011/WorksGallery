@@ -1,6 +1,9 @@
 
 (function(){
 
+// loading...
+$('#preloader').stop(true).fadeOut(1000);
+
 $(window).on('load',function(){
 
 	// owlCarousel
