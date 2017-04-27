@@ -1,6 +1,8 @@
 
 (function(){
 
+$(window).on('load',function(){
+
 	// owlCarousel
 	$('#owl-box').owlCarousel({
 		loop: true,
@@ -89,5 +91,7 @@
 			$(this).find('.fa').css('transform','');
 		}
 	})
+
+});
 
 })();
